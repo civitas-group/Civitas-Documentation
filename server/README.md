@@ -37,3 +37,12 @@ GET `/api/posts/:post_id`
 PATCH `/api/posts/:post_id`
 
 DELETE `/api/posts/:post_id`
+
+#### comment.router.js
+
+POST `/api/comments/create-comment`
+DELETE `/api/comments/:comment_id`
+
+#### announcement.router.js
+POST `/api/announcements/`
+DELETE `/api/announcements/`
